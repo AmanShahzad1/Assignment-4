@@ -1,0 +1,40 @@
+body{
+    background-image: url(img.jpg);
+    background-size: 100%;
+    background-position-x: center;
+}
+
+
+form {
+    background-color: white;
+    text-align: center; 
+    display: inline-block; 
+    margin-left:40%;
+    margin-top: 15%;
+    position: absolute;
+    padding: 12px;
+    border-radius: 12px;
+
+}
+
+
+#f_button{
+    background-color: rgb(65, 137, 65);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+a{
+    background-color: rgb(65, 137, 65);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px; 
+    cursor: pointer;
+}

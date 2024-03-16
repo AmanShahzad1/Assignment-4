@@ -1,0 +1,56 @@
+body{
+    background-image: url(img.jpg);
+    background-size: 100%;
+    background-position-x: center;
+}
+
+
+form {
+    background-color: white;
+    text-align: center; 
+    display: inline-block; 
+    margin:auto; 
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 7%;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+#f_text {
+    color: rgb(116, 114, 114);
+    margin-left: 10%;
+    margin-right: auto;
+    text-align: left;
+    font-size: large;
+
+}
+
+input{
+    margin: auto;
+    padding: 10px;
+    width:80%
+}
+
+
+#f_button{
+    background-color: rgb(65, 137, 65);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+a{
+    background-color: rgb(65, 137, 65);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px; 
+    cursor: pointer;
+}

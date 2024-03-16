@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Task1.css" />
+    <title>Login/Signup</title>
+  </head>
+  <body>
+    <a href="Task1-Home.html">Home</a>
+    <div class="contact">
+      <form action="">
+        <h1>Sign-Up</h1>
+        <div class="feilds">
+          <div class="half1">
+            <p id="f_text">Your Name:</p>
+            <input
+              type="text"
+              placeholder="Aman Shahzad"
+              name="name"
+              required
+              id="feild"
+              style="display: block"
+            />
+
+            <p id="f_text">Your Username:</p>
+            <input type="text" name="username" required id="feild" />
+
+            <p id="f_text">Your Password:</p>
+            <input type="password" name="password" required id="feild" />
+
+            <p id="f_text">Gender:</p>
+            <div style="text-align: left; margin-left: 10px; display: flex;">
+              <p><input type="radio" name="gender" id="gender" /> Male</p>
+              <p><input type="radio" name="gender" id="gender" /> Female</p>
+            </div>
+
+     
+          </div>
+
+          <div class="half2">
+            <p id="f_text">Your Email:</p>
+            <input
+              type="email"
+              placeholder="123@exapmle.com"
+              name="email"
+              required
+              id="feild"
+            />
+            
+
+            <p id="f_text">Your Phone Number:</p>
+            <input
+              type="number"
+              placeholder="0XXX-XXXXXXX"
+              name="phone"
+              required
+              id="feild"
+            />
+
+            
+            <p id="f_text">Confirm Password:</p>
+            <input type="password" name="password2" required id="feild" />
+
+            
+
+            <p id="f_text">Recovery Email:</p>
+            <input
+              type="email"
+              placeholder="123@exapmle.com"
+              name="email2"
+              required
+              id="feild"
+            />
+          </div>
+        </div>
+        <button type="submit" id="f_button">Submit</button>
+
+        <button type="reset" id="f_button">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>

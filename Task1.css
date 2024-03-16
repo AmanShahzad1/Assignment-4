@@ -1,0 +1,72 @@
+body{
+    background-image: url(img.jpg);
+    background-size: 100%;
+    background-position-x: center;
+}
+
+
+form {
+    background-color: white;
+    text-align: center; 
+    display: inline-block; 
+    margin:auto; 
+    position: absolute;
+    left: 36%;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.feilds{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+}
+
+#f_text {
+    color: rgb(116, 114, 114);
+    margin-left: 10%;
+    margin-right: auto;
+    text-align: left;
+    font-size: large;
+
+}
+
+
+
+#feild{
+    margin: auto;
+    padding: 10px;
+    width:80%
+}
+
+#gender{
+    padding: 10px;
+}
+
+#f_button{
+    background-color: rgb(65, 137, 65);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+#gender{
+    padding: 10px;
+
+}
+
+a{
+    background-color: rgb(65, 137, 65);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px; 
+    cursor: pointer;
+}
