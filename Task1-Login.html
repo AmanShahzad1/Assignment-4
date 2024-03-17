@@ -10,13 +10,13 @@
 <body>
     <a href="Task1-Home.html">Home</a>
     <div class="contact">
-        <form method="post" action="Task1-success.html">
+        <form method="get" action="Task1-success.html" onsubmit="return fromValidation()">
             <h1>Sign-In</h1>
             <p id = "f_text">Username:</p>
-            <input type="text" placeholder="Aman Shahzad" name="name" required id="input_name" style="display: block;">
+            <input type="text" placeholder="Enter Username" name="name" id="input_username" style="display: block;">
     
             <p id="f_text">Password:</p>
-            <input type="password" placeholder="Enter your password" name="password" required>
+            <input type="password" placeholder="Enter your password" name="password" id="password1">
        
             <button type="submit" id="f_button">Submit</button>
       
@@ -24,5 +24,38 @@
       
         </form>
     </div>
+
+
 </body>
+<script>
+    function fromValidation(){
+        var user = $("#input_username").val();
+        var pword = $("#password1").val();
+
+        if (user == ""){
+            alert("Enter the username");
+            return false;
+        }else{
+            var user_check = /^[a-zA-Z0-9._-]+$/;
+            if(!user_check.test(user)){
+                alert("Invalid username");
+                return false;
+            }
+        }
+
+        //Validating password
+        //Password must contain atleast one lowercase, uppercase, digit and a special character and must be of 8-15 length
+        if (pword == ""){
+            alert("Enter the password");
+            return false;
+        }else{
+            var pword_check = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#%!*&_()$^":><".])[a-zA-Z0-9@#%!*&_()$^":><".]{8,15}$/;
+            if(!pword_check.test(pword)){
+                alert("Invalid password! \nPassword must contain atleast one lowercase, uppercase, digit and a special character and must be of 8-15 length");
+                return false;
+            }
+        }
+        return true;
+    }
+</script>
 </html>

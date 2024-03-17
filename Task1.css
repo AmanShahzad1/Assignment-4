@@ -34,7 +34,37 @@ form {
 
 
 
-#feild{
+#feild_name{
+    margin: auto;
+    padding: 10px;
+    width:80%
+}
+#feild_username{
+    margin: auto;
+    padding: 10px;
+    width:80%
+}
+#feild_email{
+    margin: auto;
+    padding: 10px;
+    width:80%
+}
+#feild_num{
+    margin: auto;
+    padding: 10px;
+    width:80%
+}
+#feild_pword{
+    margin: auto;
+    padding: 10px;
+    width:80%
+}
+#feild_cpword{
+    margin: auto;
+    padding: 10px;
+    width:80%
+}
+#feild_age{
     margin: auto;
     padding: 10px;
     width:80%
