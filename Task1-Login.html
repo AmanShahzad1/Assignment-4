@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Task1-SignIn.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Login/Signup</title>
 </head>
 <body>
     <a href="Task1-Home.html">Home</a>
     <div class="contact">
-        <form action="">
+        <form method="post" action="Task1-success.html">
             <h1>Sign-In</h1>
             <p id = "f_text">Username:</p>
             <input type="text" placeholder="Aman Shahzad" name="name" required id="input_name" style="display: block;">
     
             <p id="f_text">Password:</p>
-            <input type="email" placeholder="123@exapmle.com" name="email" required>
+            <input type="password" placeholder="Enter your password" name="password" required>
        
             <button type="submit" id="f_button">Submit</button>
       
